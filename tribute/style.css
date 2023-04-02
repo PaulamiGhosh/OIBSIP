@@ -1,0 +1,269 @@
+html, body{
+	margin: 0px;
+	padding: 0rem;
+	
+}
+#first{
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	background: linear-gradient(black, dimgray);
+	width: 100%;
+	z-index: 2;
+}
+#first header{
+
+}
+#first ul{
+	margin: 0rem;
+}
+#first ul li{
+	display: inline-block;
+	margin-right: 2rem;
+}
+#first  ul li a{
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	font-family: sans-serif;
+	color:white ;
+	font-size: 2rem;
+}
+#first ul li:hover a{
+	color: lightgray;
+}
+
+
+#second
+{
+	padding: 0rem;
+	margin: 0px;
+
+}
+#second .banner{
+	display: flex;
+	flex-direction: row;
+	margin: 0rem;
+}
+.banner span{
+	text-align: center;
+	justify-content: center;
+	margin: 0rem;
+	height: 25rem;
+
+}
+.banner h1{
+	font-family: Audiowide;
+	font-weight: 100;
+	font-size: 4rem;
+}
+.banner h4{
+	font-family: Sofia;
+	font-size: 2rem;
+}
+.banner .image{
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	width: 30rem;
+	height: 25rem;
+}
+
+#third{
+	margin: 0px;
+	padding: 0px;
+	padding-left: 4rem;
+	display: flex;
+	flex-direction: column;
+	background:rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+#third div{
+	margin-left: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-right: 1rem;
+	width: auto;
+
+	}
+
+#third div h1{
+	font-size: 3rem;
+	text-align: center;
+}
+#third div p{
+	font-size: 1.6rem;
+	text-align: center;
+	font-family: cursive;
+}
+.born{
+	border: 8px solid  rgba(0, 0, 0, 0.01);
+}
+.born:hover{
+	border-left: 8px solid black;
+	transition: 0.5s;
+}
+.education{
+	border: 8px solid rgba(0, 0, 0, 0.01);
+}
+.education:hover{
+	border-left: 8px solid black;
+	transition: 0.5s;
+}
+.education h4{
+font-size: 2rem;
+text-align: center;
+}
+.Achievements{
+	
+	display: flex;
+	flex-direction: row;
+	font-size: 1.6rem;
+	text-align: center;
+	font-family: cursive;
+	
+}
+.Achievements div
+{
+	border: 4px solid dimgray;
+	border-radius: 15px;
+}
+.Achievements div:hover
+{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.congress img{
+width: 100%;
+}
+.congress ul li {
+	font-size: 1.6rem;
+	font-family: cursive;
+
+}
+
+#fourth{
+	background: lightgray;
+}
+
+
+.success div{
+	font-size: 1.6rem;
+	color: black;
+	padding: 30px;
+	text-align: justify;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.success div h1{
+	text-align: center;
+}
+#quote{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 100px 50px;
+	padding: 100px 50px;
+	font-family: sofia;
+	
+}
+#quote .card{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 350px;
+	height: 300px;
+	background: lightgray;
+	border-radius: 20px;
+	box-shadow: 0 35px  80px rgba(0, 0, 0, 0.15);
+	transition: 0.5s;
+
+}
+#quote .card:hover
+{
+	height: 400px;
+}
+#quote .card .imagebx
+{
+	position: absolute;
+	top: 20px;
+	width: 300px;
+	height: 220px;
+	background: black;
+	border-radius: 12px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+#quote .card:hover .imagebx
+{
+	top: -100px;
+	scale: 0.75;
+	box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+#quote .card .imagebx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#quote .card .content
+{
+	overflow: hidden;
+	position: absolute;
+	top: 240px;
+	width: 100%;
+	height: 20px;
+	padding: 0px 30px;
+	overflow: hidden;
+	text-align: center;
+	transition: 0.5s;
+}
+#quote .card:hover .content
+{
+	top:110px ;
+	height: 250px;
+	
+}
+
+#quote .card:hover .content h2
+{
+	font-size:2rem;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px){
+	html{
+		font-size: 45%;
+	}
+	#second  .banner{
+		display: flex;
+		flex-direction: column;
+	}
+	#third{
+		padding-left: 0px;
+	}
+	.congress img{
+		width: 100%;
+	}
+	.success{
+		display: flex;
+		flex-direction: column;
+	}
+}
